@@ -75,6 +75,7 @@ var HideServersChannelsRedux = (() => {
 		const guilds = WebpackModules.getByProps('wrapper', 'unreadMentionsIndicatorTop');
 		const channelBase = WebpackModules.getByProps('base', 'container', 'sidebar');
 
+		/*
 		const ServerButton = class ServerButton extends DiscordModules.React.Component {
 			constructor(props) {
 				super(props);
@@ -119,7 +120,9 @@ var HideServersChannelsRedux = (() => {
 				});
 			}
 		};
+		*/
 
+		
 		const ChannelButton = class ChannelButton extends DiscordModules.React.Component {
 			constructor(props) {
 				super(props);
